@@ -1,0 +1,152 @@
+:root {
+  --violet-background: hsl(257, 40%, 49%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: var(--violet-background);
+}
+/*
+1.- posicionamiento -> static,relative,display..
+2.-modelo de caja ->margin, border, tamaño
+3.-tipografia
+4.-estilos visuales -> box-shadows, border-radius
+5.-otros
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+.section-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 375px;
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section-head .section-head--content {
+  display: flex;
+  width: 340px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.section-head--content .head-content--logo {
+  height: 35px;
+  width: 130px;
+  align-self: flex-start;
+  margin-left: 15px;
+}
+
+.section-head--content .head-content--ilustracion {
+  width: 310px;
+  margin-top: 55px;
+}
+
+.section-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  text-align: center;
+  color: white;
+}
+
+.section-body .section-body--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+  margin-top: 45px;
+}
+
+.section-body--content h2 {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-weight: 400;
+  font-weight: 600;
+  font-size: 2.6rem;
+}
+
+.section-body--content p {
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+}
+
+.section-body--content button {
+  margin-top: 20px;
+  width: 220px;
+  height: 45px;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-radius: 60px;
+  background-color: white;
+  color: var(--violet-background);
+}
+
+.section-body--content button:hover {
+  background-color: #e980e7;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.75);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100px;
+  margin-top: 50px;
+}
+footer .footer-icons {
+  display: flex;
+  width: 150px;
+  justify-content: space-evenly;
+}
+
+footer .footer-icons li {
+  list-style: none;
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: white solid 1px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  border: violet solid 1px;
+  cursor: pointer;
+}
+
+footer span {
+  font-size: 1.4rem;
+  color: white;
+  margin: 0 auto;
+}
+
+footer a:hover span {
+  color: violet;
+}

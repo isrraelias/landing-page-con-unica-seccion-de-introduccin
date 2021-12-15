@@ -4,32 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="stylesheet" href="styles/main.css" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <!-- enlaces de fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- enlace iconos -->
+    <script
+      src="https://kit.fontawesome.com/5c7bdeaba1.js"
+      crossorigin="anonymous"
+    ></script>
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
-
-    <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion. Register
+    <main>
+      <section class="section-head">
+        <div class="section-head--content">
+          <img class="head-content--logo" src="images/logo.svg" alt="logo" />
+          <img
+            class="head-content--ilustracion"
+            src="images/illustration-mockups.svg"
+            alt="imagen de ejemplo"
+          />
+        </div>
+      </section>
+      <section class="section-body">
+        <div class="section-body--content">
+          <h2>Build The Community Your Fans Will Love</h2>
+          <p>
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as
+            your engage in genuine discussion.
+          </p>
+          <button type="button">Register</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="footer-icons">
+        <li>
+          <a href="#"><span class="fab fa-facebook-f"></span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fab fa-twitter"></span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fab fa-instagram"></span></a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
