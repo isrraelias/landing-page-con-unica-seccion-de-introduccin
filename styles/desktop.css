@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/bg-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  height: inherit;
+  width: 100%;
+}
+.section-head {
+  background-image: none;
+}
+
+.section-head .section-head--content {
+  width: initial;
+  margin-top: 50px;
+}
+
+.section-head--content .head-content--logo {
+  height: 60px;
+  width: 300px;
+}
+
+.section-head--content .head-content--ilustracion {
+  width: 770px;
+  height: 590px;
+  margin-top: 80px;
+  margin-left: 45px;
+}
+
+.section-body {
+  justify-content: center;
+  text-align: left;
+}
+
+.section-body .section-body--content {
+  width: 80%;
+  align-items: flex-start;
+}
+
+.section-body--content h2 {
+  font-size: 4.5rem;
+}
+.section-body--content p {
+  font-size: 2rem;
+}
+
+.section-body--content button {
+  height: 60px;
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+footer {
+  align-self: flex-end;
+  margin-right: 50px;
+  width: 300px;
+}
+
+footer .footer-icons {
+  width: 240px;
+}
+
+footer a {
+  height: 50px;
+  width: 50px;
+}
+
+footer span {
+  font-size: 2.4rem;
+}
